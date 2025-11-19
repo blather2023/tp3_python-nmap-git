@@ -19,13 +19,15 @@ crée un script python capable de lancer des scans nmap **sur 127.0.0.1 uniqueme
 
 *cd ~/tp3-mini-scanner
 
-4 - Faire les premiers commits :
+4- ajouter votre script et Faire les premiers commits :
 
 *git add tp3_kali_scanner.py
 
 *git commit -m "Initial commit: tp3 scanner script"
 
-# ÉTAPE2: ajoute README et dossier reports vides
+NB: faire un git int dans le dossier tp3-mini-scanner pour crée un noueau répertoire
+
+5-  ajoute README et dossier reports vides
 *echo "# TP3 - Mini Scanner" > README.md
 
 *mkdir -p reports
@@ -34,13 +36,22 @@ crée un script python capable de lancer des scans nmap **sur 127.0.0.1 uniqueme
 
 *git commit -m "Ajout README et dossier reports"
 
-# ÉTAPE3: Ajouter le script Python (fichier : tp3_kali_scanner.py)
-1- ajouter votre script python et tester
-
-2- au fure et a mésure améliorer le script  et enrégistrer le à l aide des commits
+6- au fure et a mésure améliorer le script  et enrégistrer le à l aide des commits
 
 *git commit -am (ex:"Amélioration menu + messages d'état")
 
+# ÉTAPE2: Éxécution et résultat
+
+1- utiliser votre machine kali linux, à l aide du terminal exécuter:
+
+*python3 tp3_kali_scanner.py
+
+2- faites un choix parmi les option du ménue
+
+3- et saisisez l adresse 127.0.0.1 ou localhost ou personnalisé à l aide d option (-p 1-1024 -sV)
+
+4- vous retrouvez les rapports des scans dans le dossier ./reports/ sous forme TXT. par exemple:
+top100_20251114_223015.txt
 
 VOUS TROUVEREZ LES DIFFÉRENTES VERSIONS PRÉCÉDENTE DU PROJET DANS LE REPERTOIRE DE DÉPOT DU PROJET
 
